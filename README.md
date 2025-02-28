@@ -13,7 +13,7 @@ if Input.is_action_just_pressed("ui_up"):
 		velocity.y = jump_speed
 		double_jump = false
 ```
-#### Penjelasan
+### Penjelasan
 ```
 if is_on_floor():
 	velocity.y = jump_speed
@@ -39,7 +39,7 @@ if Input.is_action_pressed("ui_left"):
 		velocity.x = -crouch_speed
 		$AnimatedSprite2D.play("crouch")
 ```
-#### Penjelasan
+### Penjelasan
 Jika pemain menekan tombol move ke kiri atau ke kanan bersamaan dengan tombol panah bawah, maka karakter akan bergerak dengan kecepatan lebih lambat (`crouch_speed`).
 
 ## Dashing
